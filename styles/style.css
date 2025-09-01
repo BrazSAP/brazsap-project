@@ -1,0 +1,59 @@
+:root {
+  /* --bs-body-color: #f2f0e6; */
+  --primary-color: #0000ff;
+  --dark-background: #1c205b;
+  --light-background: #8585ff;
+  --light-text: #f2f0e6;
+}
+html {
+  scroll-padding-top: 80px;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.hero {
+  margin: 0;
+  padding: 5%;
+}
+
+.nav-link {
+  color: var(--light-text);
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  border: 2px solid var(--dark-background);
+}
+
+#about,
+#services,
+#contact {
+  margin: 8px 32px;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 16px;
+  height: 500px;
+}
+
+#services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-text);
+}
